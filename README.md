@@ -2,7 +2,8 @@
 
 ![Github License](https://img.shields.io/badge/license-none-blue.svg)
   ## Description
-<img src="Assests/one.png">
+<img src="Assets/one.png">
+<img src="Assets/two.png">
 
 https://github.com/burnsgirl/Note-Taker
 
@@ -22,14 +23,14 @@ This application is used to keep track of things you need to do or remember with
 [Contact](#contact)
 
 ## Installation
-To use this application, you will need to install npm and express on your device.
+To use this application, you will need to install node and express on your device.
 
 ## Usage
 You will use this site to create notes of things you need to do or remember. Once a note is created it will stay there until the user deletes the note.
 
 
 ## Technologies
-Technologies used: HTML5, JavaScript, Express, CSS, 
+Technologies used: HTML5, JavaScript, Express, CSS, Node, and Heroku.
 
 ## License
 License: None

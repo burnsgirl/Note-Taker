@@ -1,13 +1,14 @@
+// Requiring file writing and routing
 const fs = require("fs");
 const path = require("path");
 
-
+// Retrieving information from a specific api
 function data (app) {
 
 app.get("/api/notes", (req, res) => 
 res.sendFile(path.join(__dirname, "../db/db.json")));
 
-
+    // Writing information for the note and storing it in the database
     app.post("/api/notes", (req, res) => {
 
         let newNote = {
@@ -22,4 +23,6 @@ res.sendFile(path.join(__dirname, "../db/db.json")));
         res.json(note);
     });
 };
- module.exports = data;
+
+// Exporting file data
+module.exports = data;

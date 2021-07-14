@@ -1,27 +1,16 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "![Github License](https://img.shields.io/badge/license-none-blue.svg)   ## Description <img src=\"Assests/one.png\">",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/burnsgirl/Note-Taker.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/burnsgirl/Note-Taker/issues"
-  },
-  "homepage": "https://github.com/burnsgirl/Note-Taker#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "expres": "0.0.5",
     "express": "^4.17.1",
-    "mongoose": "^5.13.2",
-    "uuid": "^8.3.2"
-  },
-  "devDependencies": {}
+    "uuidv4": "^6.2.11"
+  }
 }

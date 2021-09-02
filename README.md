@@ -10,8 +10,6 @@ https://github.com/burnsgirl/Note-Taker
 
 https://voyage-monsieur-93664.herokuapp.com/
 
-https://git.heroku.com/voyage-monsieur-93664.git
-
 This application is used to keep track of things you need to do or remember with notes. When you open the page you will hit 'Get Started' which will take you to the note home page. You will see on the left a list of notes you have made already that you can view. On the right you will see the ability to make a new note by clicking on the pencil. Once you have everything you would like in the note, the save icon will pop up for you to click on the save it to the list.
 
 ## Table of Contents

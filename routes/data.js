@@ -22,6 +22,12 @@ res.sendFile(path.join(__dirname, "../db/db.json")));
         fs.writeFileSync("./db/db.json",JSON.stringify(note));
         res.json(note);
     });
+
+    app.delete("/:id", (req, res) => {
+        try {
+            const noteData = await 
+        }
+    })
 };
 
 // Exporting file data
